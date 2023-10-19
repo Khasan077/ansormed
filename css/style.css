@@ -23,3 +23,59 @@ body{
      margin-right: auto;
      margin-left: auto;
 }
+
+/* header */
+
+.site-header{
+    padding: 24px;
+}
+
+.site-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    color: #222;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.sitenav-list{
+    display: flex;
+    list-style: none;
+}
+
+.site-nav{
+    color: #222;
+    margin-left: 32px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;    
+}
+
+.button{
+    color: #FFF;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #DE2E54;
+}

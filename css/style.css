@@ -232,11 +232,6 @@ body{
 
 .footer-logo-text{
     color: #FFF;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-weight: 600;
-    margin-left: 16px;
-    text-decoration: none;
 }
 
 .footer-logo-text:hover{
@@ -245,13 +240,6 @@ body{
 
 .footer-nav-item{
     color: #FFF;
-    margin-left: 32px;
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
-    letter-spacing: 2px;
-    text-transform: uppercase;  ;
 }
 
 .footer-nav-item:hover{

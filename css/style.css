@@ -50,6 +50,10 @@ body{
     text-decoration: none;
 }
 
+.logo-text:hover{
+    color: #DE2E54;
+}
+
 .sitenav-list{
     display: flex;
     list-style: none;
@@ -66,6 +70,10 @@ body{
     text-transform: uppercase;    
 }
 
+.site-nav:hover{
+    color: #DE2E54;
+}
+
 .button{
     color: #FFF;
     padding: 12px 24px;
@@ -77,6 +85,14 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     background-color: #DE2E54;
+    border: 2px solid #DE2E54;
+}
+
+.button:hover{
+    color: #DE2E54;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: 2px solid #DE2E54;
 }
 
 
@@ -115,39 +131,41 @@ body{
     object-fit: cover;
 }
 
+/* services */
 
-/* footer */
-
-.site-footer{
-    padding: 24px;
-    background-color: #222;
+.services-heading{
+    text-align: center;
 }
 
-.footer-container{
+.services-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-logo-text{
-    color: #FFF;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-weight: 600;
-    margin-left: 16px;
-    text-decoration: none;
+.service-title{
+    width: 800px;
 }
 
-.footer-nav-item{
-    color: #FFF;
-    margin-left: 32px;
-    font-family: "Open Sans";
-    font-size: 14px;
+.service-title-heading{
+    font-size: 24px;
+    color: #222;
     font-weight: 700;
-    text-decoration: none;
-    letter-spacing: 2px;
-    text-transform: uppercase;  ;
+    line-height: 27px;
 }
+
+.services-main-title{
+    color: #222;
+    font-family: "Open Sans, Condensed";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.service-text{
+    font-weight: 400;
+}
+
 
 /* contact */
 
@@ -180,3 +198,53 @@ body{
     border: 2px solid #FFF;
 }
 
+.call-btns:hover{
+    color: #FFF;
+    border-radius: 8px;
+    background-color: #DE2E54;
+    border: 2px solid #DE2E54;
+}
+
+
+
+
+/* footer */
+
+.site-footer{
+    padding: 24px;
+    background-color: #222;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo-text{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.footer-logo-text:hover{
+    color: #DE2E54;
+}
+
+.footer-nav-item{
+    color: #FFF;
+    margin-left: 32px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;  ;
+}
+
+.footer-nav-item:hover{
+    color: #DE2E54;
+}

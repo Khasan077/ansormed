@@ -13,6 +13,10 @@ body{
     color: #444;
 }
 
+ *:focus{
+    outline: 2px dotted #222;
+ }
+
 /* Container */
 
 .container{
@@ -27,7 +31,8 @@ body{
 /* header */
 
 .site-header{
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .site-header-container{
@@ -57,12 +62,15 @@ body{
 .sitenav-list{
     display: flex;
     list-style: none;
+    align-items: center;
+}
+
+.list-items:not(:last-child){
+    margin-right: 32px;
 }
 
 .site-nav{
     color: #222;
-    margin-left: 32px;
-    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
@@ -75,8 +83,9 @@ body{
 }
 
 .button{
+    display: inline-block;
     color: #FFF;
-    padding: 12px 24px;
+    padding: 10px 22px;
     font-size: 15px;
     font-weight: 700;
     line-height: 22px;

@@ -109,6 +109,7 @@ body{
 
 .hero{
     background-color: #0EB4C1;
+    color: #FFF;
 }
 
 .hero-content{
@@ -117,12 +118,17 @@ body{
     align-items: center;
 }
 
+.hero-title{
+    width: 500px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .hero-heading{
     margin-bottom: 16px;
     font-family: "Open Sans Condensed";
     font-size: 36px;
     font-weight: 700;
-    color: #FFF;
     line-height: 42px;
 }
 
@@ -136,19 +142,40 @@ body{
     line-height: 27px;
 }
 
-.hero-img{
-    object-fit: cover;
+.hero-img{ 
+    align-self: flex-end;
 }
 
 /* services */
 
+.services{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .services-heading{
+    margin-top: 0;
+    margin-bottom: 56px;
     text-align: center;
 }
 
-.services-list{
+.service-list{
+    width: 864px;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+.services-item.list-items:not(:last-child){
+    margin-bottom: 80px;
+}
+
+.index-services{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     align-items: center;
 }
 
@@ -175,6 +202,10 @@ body{
     font-weight: 400;
 }
 
+.services-btn{
+    display: flex;
+    justify-content: center;
+}
 
 /* contact */
 
